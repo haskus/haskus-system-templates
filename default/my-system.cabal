@@ -15,4 +15,4 @@ executable my-system
    ghc-options: -Wall -static -threaded
    cc-options: -static
    ld-options: -static -pthread
-   extra-lib-dirs: ~/.haskus/system/lib
+   extra-lib-dirs: ./.system-work/lib/

@@ -13,3 +13,11 @@ linux:
 
 ramdisk:
    init: my-system
+
+qemu:
+   # Select a set of options for QEMU:
+   #  "default": enable recommended options
+   #  "vanilla": only use required settings to make tests work
+   profile: vanilla
+   options: ""
+   kernel-args: ""

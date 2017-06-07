@@ -5,8 +5,8 @@ flags: {}
 packages:
 - '.'
 - location:
-    git: git@github.com:haskus/haskus-system
-    commit: 17d934186450c7f821830df4d05b833095ed0374
+    git:    git@github.com:haskus/haskus-system
+    commit: a0b6deac7e8ef22af8e9c1ad820c0235d0d04c4f
   extra-dep: true
 
 ghc-options:
