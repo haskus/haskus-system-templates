@@ -1,0 +1,19 @@
+resolver: lts-8.15
+
+flags: {}
+
+packages:
+- '.'
+- location:
+    git: git@github.com:haskus/haskus-system
+    commit: 17d934186450c7f821830df4d05b833095ed0374
+  extra-dep: true
+
+ghc-options:
+   "haskus-system": -freduction-depth=0 -fobject-code
+
+extra-deps:
+- haskus-binary-0.6.0.0
+- haskus-utils-0.6.0.0
+- JuicyPixels-3.2.7.1
+- pqueue-1.3.2
