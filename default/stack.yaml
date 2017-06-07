@@ -15,5 +15,3 @@ ghc-options:
 extra-deps:
 - haskus-binary-0.6.0.0
 - haskus-utils-0.6.0.0
-- JuicyPixels-3.2.7.1
-- pqueue-1.3.2
