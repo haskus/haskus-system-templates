@@ -6,7 +6,7 @@ packages:
 - '.'
 - location:
     git:    git@github.com:haskus/haskus-system
-    commit: f611e5936f646db46a37cb2ad6ab57b8b373152b
+    commit: 8567850b1f3480255d05d3460272e084872d60fb
   extra-dep: true
 
 ghc-options:
