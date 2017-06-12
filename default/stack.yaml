@@ -1,4 +1,4 @@
-resolver: lts-8.15
+resolver: lts-8.18
 
 flags: {}
 
@@ -14,4 +14,4 @@ ghc-options:
 
 extra-deps:
 - haskus-binary-0.6.0.0
-- haskus-utils-0.6.0.0
+- haskus-utils-0.7.0.0

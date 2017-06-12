@@ -11,6 +11,7 @@ executable my-system
    build-depends:
          base >=4.9
       ,  haskus-system
+      ,  haskus-utils
    default-language:    Haskell2010
    ghc-options: -Wall -static -threaded
    cc-options: -static
