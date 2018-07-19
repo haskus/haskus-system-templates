@@ -1,17 +1,19 @@
-resolver: lts-8.18
+resolver: lts-12.1
 
 flags: {}
 
 packages:
 - '.'
-- location:
-    git:    git@github.com:haskus/haskus-system
-    commit: 8567850b1f3480255d05d3460272e084872d60fb
-  extra-dep: true
-
-ghc-options:
-   "haskus-system": -freduction-depth=0 -fobject-code
 
 extra-deps:
-- haskus-binary-0.6.0.0
-- haskus-utils-0.7.0.0
+- haskus-utils-1.0
+- haskus-utils-types-1.0
+- haskus-utils-data-1.0
+- haskus-utils-variant-1.0
+- haskus-binary-1.0
+- git: https://github.com/haskus/haskus-system.git
+  commit: e4cbd6f75b945f8dda0d110c1412aca207cecf70
+
+ghc-options:
+   "haskus-system": -fobject-code
+   "$locals": -fhide-source-paths
