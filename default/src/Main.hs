@@ -13,4 +13,4 @@ main = runSys <| do
    waitForKey term
 
    -- shutdown the computer
-   void powerOff
+   powerOff_
