@@ -1,12 +1,12 @@
 linux:
    source: tarball
-   version: "5.0"
+   version: "5.11"
    options:
       enable:
          - CONFIG_DRM_BOCHS
          - CONFIG_DRM_RADEON
          - CONFIG_DRM_NOUVEAU
-   make-args: "-j8"
+   make-args: "-j"
 
 ramdisk:
    init: my-system
